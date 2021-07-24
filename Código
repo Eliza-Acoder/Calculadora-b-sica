@@ -1,0 +1,30 @@
+import UIKit
+
+// MARK: Operaciones con enteros
+let primerNumero = 25
+let segundoNumero = 100
+
+let suma = primerNumero + segundoNumero
+let resta = segundoNumero - primerNumero
+
+let producto = primerNumero * segundoNumero
+let cociente = segundoNumero / primerNumero
+let restante = 10 % segundoNumero
+
+// MARK: Operaciones con decimales (flotantes o dobles)
+let a = 7
+let b = 5.5
+
+let segundaSuma = a + Int(b)
+let terceraSuma = Double(a) + b
+
+let segundaResta = a - Int(b)
+let terceraResta = Double(a) - b
+
+let segundoProducto = a * Int(b)
+let tercerProducto = Double(a) * b
+
+let segundoCociente = a / Int(b)
+let terceroCociente = Double(a) / b
+
+let segundoRestante = b.truncatingRemainder(dividingBy: 5)
